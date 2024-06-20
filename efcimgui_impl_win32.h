@@ -1,7 +1,7 @@
 #ifndef _EFCIMGUI_IMPL_WIN32_H
 #define _EFCIMGUI_IMPL_WIN32_H
 
-#include <efstdbool.h>
+#include <stdbool.h>
 
 bool efcimgui_impl_win32_init(void *hwnd);
 bool efcimgui_impl_win32_init_for_open_gl(void *hwnd);
